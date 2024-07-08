@@ -2,6 +2,7 @@ package linked_list
 
 data class Node(val value: Int, var next: Node? = null)
 data class DoubleNode(val value: Int, var prev: DoubleNode? = null, var next: DoubleNode? = null)
+
 class LinkedList {
 
     fun createDoubleLinkedListHavingNNumbers(n: Int): DoubleNode {
